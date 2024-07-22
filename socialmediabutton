@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+        .button-container {
+            display: flex;
+            gap: 20px; /* Adds space between the buttons */
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .social-button {
+            background-color: #000000; /* Default color */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .social-button img {
+            margin-right: 8px;
+            height: 20px;
+        }
+
+        .linkedin-button {
+            background-color: #000000; /* LinkedIn color */
+        }
+
+        .github-button {
+            background-color: #000000; /* GitHub color */
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="https://www.linkedin.com/in/cheriyan-login-page/" target="_blank">
+            <button class="social-button linkedin-button">
+                <img src="https://super.so/icon/light/linkedin.svg" alt="LinkedIn Logo">
+                LinkedIn
+            </button>
+        </a>
+        <a href="https://github.com/cheriyan21" target="_blank">
+            <button class="social-button github-button">
+                <img src="https://super.so/icon/light/github.svg" alt="GitHub Logo">
+                GitHub
+            </button>
+        </a>
+    </div>
+</body>
+</html>
